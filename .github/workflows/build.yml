@@ -43,12 +43,12 @@ jobs:
             os-type: Linux
             shell: bash
             artifacts: yes
-          - name: macos
-            display-name: macOS
-            runs-on: macos-11
-            os-type: macOS
-            shell: bash
-            artifacts: yes
+          #- name: macos
+          #  display-name: macOS
+          #  runs-on: macos-11
+          #  os-type: macOS
+          #  shell: bash
+          #  artifacts: yes
           - name: mingw32
             display-name: MSYS MinGW 32-bit
             runs-on: windows-2019
